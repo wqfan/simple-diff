@@ -1,0 +1,13 @@
+.text-container {
+  display: flex;
+}
+
+.text {
+  flex: 1 1 0;
+  overflow-x: scroll;
+}
+
+.compare-container {
+  margin: 8px 0;
+  text-align: center;
+}

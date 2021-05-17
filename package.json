@@ -1,0 +1,18 @@
+{
+  "name": "simple-diff",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --outdir=dist"
+  },
+  "dependencies": {
+    "codemirror": "^5.61.0",
+    "diff": "^5.0.0",
+    "diff2html": "^3.4.4"
+  },
+  "devDependencies": {
+    "@types/codemirror": "^5.60.0",
+    "@types/diff": "^5.0.0",
+    "esbuild": "^0.11.23",
+    "typescript": "^4.2.4"
+  }
+}
