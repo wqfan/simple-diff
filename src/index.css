@@ -1,3 +1,7 @@
+* {
+  font-family: monospace;
+}
+
 .text-container {
   display: flex;
 }
