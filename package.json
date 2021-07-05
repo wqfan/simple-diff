@@ -2,7 +2,7 @@
   "name": "simple-diff",
   "version": "0.0.1",
   "scripts": {
-    "build": "esbuild src/index.ts --bundle --outdir=dist"
+    "build": "esbuild src/index.ts --bundle --minify --outdir=dist"
   },
   "dependencies": {
     "codemirror": "^5.61.0",
